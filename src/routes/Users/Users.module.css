@@ -1,0 +1,14 @@
+.userLink {
+  font-size: 23px;
+  font-weight: 500;
+  color: #000000;
+  transition: 0.3s linear;
+}
+.usersList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.userLink:hover {
+  color: rgb(0, 0, 255);
+}

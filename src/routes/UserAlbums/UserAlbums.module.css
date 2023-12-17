@@ -1,0 +1,87 @@
+.mainBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.albumInfo {
+  margin-top: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.albumsContainer {
+  margin: 0 auto;
+  justify-content: center;
+  width: 65vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+
+.albumTitle {
+  color: red;
+}
+
+.userFullName {
+  color: rgb(167, 167, 167);
+}
+
+.linkToUser {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkToUser:hover {
+  color: red;
+}
+
+.errorPage {
+  font-size: 5vw;
+  margin: 0 auto;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.spinner {
+  margin: 0 auto;
+  margin-top: 40%;
+}
+
+
+.imageBox {
+  width: 20vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .albumsContainer {
+    width: 80vw;
+  }
+
+  .imageBox {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .albumsContainer {
+    width: 90vw;
+  }
+
+  .imageBox {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .albumsContainer {
+    width: 90vw;
+  }
+
+  .imageBox {
+    width: 90vw;
+  }
+}

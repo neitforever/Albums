@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.albumLink {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.albumLink:hover {
+  color: rgb(0, 0, 255);
+}

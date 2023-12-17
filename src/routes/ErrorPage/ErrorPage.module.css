@@ -1,0 +1,21 @@
+.link {
+  color: #8e8e8e;
+}
+.link:hover {
+  color: rgb(0, 0, 255);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+.textUnknownPage {
+  font-weight: bold;
+}
+.textGoTo {
+  color: #8e8e8e;
+}

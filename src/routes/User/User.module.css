@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.userNickName,
+.userEmail,
+.userPhone,
+.userSite {
+  color: #8e8e8e;
+}
+.albums {
+  margin-bottom: 5px;
+}
+.albumsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.albumsIcon {
+  position: relative;
+  top: 2px;
+}
+
+.albumLink {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  transition: 0.3s linear;
+}
+
+.albumLink:hover {
+  color: rgb(0, 0, 255);
+}
+.albumTextHover:hover {
+  color: rgb(0, 0, 255);
+}
+.userEmailLink,
+.userSiteLink {
+  color: #8e8e8e;
+}
+.userEmailLink:hover,
+.userSiteLink:hover {
+  color: rgb(0, 0, 255);
+}
+@media (max-width: 480px) {
+  .albums {
+    text-align: center;
+  }
+
+  .userContainer {
+    text-align: center;
+  }
+
+  .albumsList {
+    text-align: left;
+    gap: 5px;
+  }
+}

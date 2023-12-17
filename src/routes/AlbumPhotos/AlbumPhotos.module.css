@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.userName {
+  color: #8e8e8e;
+}
+.userNameLink {
+  color: #8e8e8e;
+}
+.userNameLink:hover {
+  color: rgb(0, 0, 255);
+}
+.image {
+  width: 361px;
+}
+.loading {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .image {
+    width: 322px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 366px;
+  }
+}
+
+@media (max-width: 480px) {
+  .albumTitle {
+    text-align: center;
+  }
+
+  .userName {
+    text-align: center;
+  }
+
+  .imageList {
+    justify-content: center;
+  }
+
+  .image {
+    width: 333px;
+  }
+}
